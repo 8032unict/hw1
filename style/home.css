@@ -1,0 +1,460 @@
+body{
+    margin : 0;
+}
+
+header{
+    height:50px;
+    width: 100%;
+    background-color: #d48166;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Kanit', sans-serif;
+    justify-content: space-evenly;
+    color: white;
+}
+
+#overlay{
+    opacity:0.6;
+    background-color: rgba(0,0,0,0.4);
+    height:50px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+header h3{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+    position: absolute;
+    top: -32.5px;
+    left: 20px;
+    z-index:1;
+}
+
+
+body{
+    margin: 0;
+}
+
+header nav {
+    position: absolute;
+    font-family: 'Kanit', sans-serif;
+    top: 0px;
+    right: 10px;
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    z-index:1;
+    
+    
+}
+
+#userInfo{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2px;
+    height: fit-content;
+    position: relative
+}
+
+
+nav a{
+    color:rgb(231, 231, 231);
+    padding: 10px;
+    height: 100%;
+    background-color: #373a36;
+    width: max-content;
+}
+nav div{
+    padding: 10px;
+}
+
+
+
+#overlay {
+    background-color: rgba(0,0,0,0.4); 
+    z-index: 0; 
+}
+
+.textFooter {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+    z-index: 1;
+    font-size: 30px;
+}
+
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.67%;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.delete{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-size: 0.7em;
+    width: fit-content;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #722929;
+
+}
+
+.delete:hover{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-size: 0.7em;
+    width: fit-content;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #431b1b;
+
+}
+
+.errormessage{
+    font-size: medium;
+    color: red;
+    font-family: 'Kanit',sans-serif;
+    font-style: italic;
+}
+
+
+
+.element{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.content{
+    border-left: 1px solid black;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: fit-content;
+}
+.title {
+    height:max-content;
+    font-weight: bold;
+    font-family: 'Kanit',sans-serif;
+    color:rgba(0,0,0,0.7);
+    word-wrap: break-word;
+}
+
+.text{
+    font-size: .5em;
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+    word-wrap : break-word;
+}
+
+.usernamePosts{
+    font-style: italic;
+    color: gray;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.timePosts{
+    font-style: italic;
+    color: #722929;
+    font-size: 20px;
+}
+
+.number{
+    font-size: inherit;
+    font-weight: bold;
+    font-family: 'Kanit',sans-serif;
+    color:rgba(0,0,0,0.7);
+    margin-right: 40px;
+    margin-left: -61px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonBig{
+    width: fit-content;
+    background-color: cornsilk;
+    height: fit-content;
+    font-size: small;
+    font-family: 'Kanit', sans-serif;
+    margin-right: 20px;
+
+}
+.buttonBig:hover{
+    width: fit-content;
+    background-color:antiquewhite;
+    font-size: small;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+
+
+.buttonsDiv{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-left: 1px solid #d48166;
+    padding: 10px;
+    font-family: 'Kanit',sans-serif;
+    color: #722929;
+}
+
+.buttonsDivDelete{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-left: 1px solid #d48166;
+    padding: 10px;
+    font-family: 'Kanit',sans-serif;
+    color: #722929;
+}
+
+.imgboxPost{
+    font-family: 'Kanit',sans-serif;
+    color: #722929;
+    margin-bottom: 30px;
+}
+
+.imgboxPost img{
+    height: 100%;
+    width: 100%;
+}
+
+.imgbox{
+    font-family: 'Kanit',sans-serif;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+.imgbox img{
+    border-left: 1px solid #d48166;
+    padding: 10px;
+    font-family: 'Kanit',sans-serif;
+    color: #722929;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.buttonsDivEnd{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    border-left: 1px solid #d48166;
+    padding: 10px;
+}
+
+.buttonsDivInside{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:1300px){
+    .buttonsDivInside{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttonBig{
+        width: fit-content;
+        background-color: cornsilk;
+        height: fit-content;
+        font-size: small;
+        font-family: 'Kanit', sans-serif;
+        margin-bottom: 10px;
+    
+    }
+
+    .deletecontent{
+        display: flex;
+        font-size: small;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .like{
+        width: fit-content;
+        background-color: cornsilk;
+        font-size: small;
+        font-family: 'Kanit', sans-serif;
+        margin-right: 5px;
+    }
+
+}
+
+@media screen and (max-width:835px){
+    .textStartWithButton{
+        flex-direction: column;
+        height: 80px;
+    }
+}
+
+
+
+.titleStart {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height:max-content;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    color:rgba(0,0,0,0.7);
+}
+
+#titleForm {
+    display: flex;
+    flex-direction: row;
+    height:max-content;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    color:rgba(0,0,0,0.7);
+}
+
+.textStart{
+    font-size: .5em;
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+    color: #373a36;
+    margin-bottom: 20px;
+    padding: 3px;
+    border-left:1px solid #373a36;
+    padding :10px;
+    
+}
+
+/* ---------------BCC----------------------*/
+.messageTop{
+    background-color: #431b1b;
+    font-family: 'Kanit',sans-serif;
+    position: fixed;
+    top: 100px;
+    padding: 20px 40px;
+    color: white;
+}
+
+.xButton{
+    position: relative;
+    top: -23px;
+    right: -34px;
+}
+
+.messageContainer{
+    display: flex;
+    justify-content: center;
+}
+
+/*-----------FRB---------------*/
+.textStartWithButton{
+    font-size: .4em;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+    color: #373a36;
+    margin-top: 20px;
+    padding: 3px;
+    border-left:1px solid #373a36;
+    padding :10px;
+    justify-content: space-between;
+}
+
+label{
+    font-size: medium;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+/* FRB */
+
+.deletecontent{
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    margin: 5px 0;
+    margin-right: 5px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#story{
+    height: 200px;
+    width: 66.6vw;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: 'Kanit',sans-serif;
+}
+
+#title{
+    height: max-content;
+    width: 66.6vw;
+    margin-bottom: 10px;
+    resize: none;
+    font-family: 'Kanit',sans-serif;
+}
+.containerForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#submit{
+    width: fit-content;
+    background-color: cornsilk;
+    height: fit-content;
+    font-size: medium;
+    font-family: 'Kanit', sans-serif;
+    margin-right: 20px;
+}
+
+#searchPost{
+    margin:0;
+}
+
+#storyForm{
+    margin:0;
+}
+
+footer {
+    background-color: #373a36;
+    height: 60px;
+}
+
+footer h2 {
+    color: aliceblue;
+    font-family: 'Kani', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:  relative;
+    top:10px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    
+
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+.inputError{
+    border: 1px solid red;
+}
